@@ -1,0 +1,28 @@
+.label-teal, .teal-bg {
+    background-color: #4dc0b5;
+    color: #ffffff
+}
+.label-pink, .pink-br{
+    background-color: #f66d9b;
+    color: #ffffff
+}
+.label-indigo, .indigo-bg {
+    background-color: #6574cd;
+    color: #ffffff
+}
+.label-green, .green-bg {
+    background-color: #38c172;
+    color: #ffffff
+}
+.label-purple, .purple-bg {
+    background-color: #9561e2;
+    color: #ffffff
+}
+.label-cyan, .cyan-bg {
+    background-color: #356e77;
+    color: #ffffff
+}
+.label-brown, .brown-bg {
+    background-color: #a56722;
+    color: #ffffff
+}

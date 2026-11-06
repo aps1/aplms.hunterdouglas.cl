@@ -1,0 +1,65 @@
+# Herramientas locales
+.vscode/
+.docs/
+.claude/
+.codegraph/
+.qodo/
+.idea/
+*.code-workspace
+.backups/
+.backups_delete/
+.evidencia*/
+
+# Secretos
+.env
+.env.*
+!.env.example
+*.sql
+*.sql.gz
+
+# Dependencias (composer / npm)
+/vendor/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Generado por Laravel en el servidor
+/bootstrap/cache/*.php
+/storage/*.key
+/storage/logs/
+/storage/debugbar/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/framework/testing/
+/storage/app/
+/storage/media-library/
+/public/storage
+/public/hot
+.phpunit.result.cache
+error_log
+*.log
+*.log.*
+
+# Copias viejas de la app dentro de public_html (no son la app activa)
+/laravel8/
+/laravel58/
+
+# Respaldos y comprimidos
+*.bak
+*.bak_*
+*.old
+*~
+*.orig
+*.swp
+*.zip
+*.tar.gz
+*.rar
+
+# Sistema y entornos locales
+.DS_Store
+Thumbs.db
+desktop.ini
+Homestead.yaml
+Homestead.json
+/.vagrant
